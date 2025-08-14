@@ -7,7 +7,7 @@ math: false
 toc: true
 pin: false
 image:
-  path: /assets/postImage/money-2180330_1280.jpg
+  path: /assets/postImage/money-2180330_1280.png
   alt: Baekjoon 5585 거스름돈
 ---
 
