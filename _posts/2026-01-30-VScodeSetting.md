@@ -36,18 +36,23 @@ Library: raylib
 ### 3. 원인
 첫번째로 VS Code의 기본 터미널이 MSYS / bash로 열리고 있었다는 걸 알았습니다.
 
+---
+
 ```text
 seven@XXXX MSYS /c/Users/...
 $ g++ main.cpp
 bash: g++: command not found
+```
 
+---
 해결방법은 VS Code 검색창에 >Terminal → Select Default Profile 를 선택한 후
 Command prompt 나 PowerShell 둘 중 하나를 선택해야 합니다.
 그 다음 ctrl + shift + p를 누른 후 Developer: Reload Window를 선택해 VS code를 재시작합니다.
-
+---
 두번째로 gcc / g++ 인식 문제로 환경 변수(PATH)에 MinGW 경로가 등록되지 않았기 때문에 다음과 같은 오류 메시지가 발생했습니다.
 'g++' is not recognized as an internal or external command
 
 해결방법은 내 PC → 속성 → 고급 시스템 설정 → 환경 변수(N)
 이후 시스템 변수에서 변수 PATH를 더블 클릭한 후 새로 만들기를 누른 후 MinGw의 bin폴더 경로를 추가합니다.
 환경 변수가 제대로 등록 되었는지 Command prompt창을 킨 후 명령어 g++ --version 로 버전이 뜨는지를 확인했으면 MinGw 경로가 제대로 등록이 된 것입니다.
+---
