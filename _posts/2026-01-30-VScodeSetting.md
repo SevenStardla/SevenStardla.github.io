@@ -1,4 +1,15 @@
-# VS Code + raylib + C++ (MinGW-w64) 환경 세팅 & 해결 가이드
+---
+title: "[VSCode 세팅] VS Code + raylib + C++ (MinGW-w64) 환경 세팅 & 해결 가이드"
+date: 2026-01-30 22:00:00 +09:00
+categories: [VSCode, C++, raylib]
+tags: [VSCode, C++, raylib, MinGw-w64]
+math: false
+toc: true
+pin: false
+image:
+  path: /assets/postImage/VSCode.png
+  alt: VSCode
+---
 
 ## 이 글을 보기에 앞서..
 저는 게임 개발 공부를 위해 C++과 raylib를 선택했습니다.
@@ -55,8 +66,12 @@ bash: g++: command not found
 'g++' is not recognized as an internal or external command
 ```
 
+---
 해결방법
 내 PC → 속성 → 고급 시스템 설정 → 환경 변수(N) → 시스템 변수에서 변수 PATH를 더블 클릭한 후 새로 만들기를 누른 후 MinGw의 bin폴더 경로를 추가합니다.
 환경 변수가 제대로 등록 되었는지 Command prompt창을 킨 후 명령어 g++ --version 로 버전이 뜨는지를 확인했으면 MinGw 경로가 제대로 등록이 된 것입니다.
+---
+
+---
 <img src="repo/images/VSCodeSettings/MyPC_Attribute.png" width="600">
 ---
