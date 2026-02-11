@@ -73,5 +73,5 @@ bash: g++: command not found
 ---
 
 ---
-<img src="repo/images/VSCodeSettings/MyPC_Attribute.png" width="600">
+![내PC속성창](repo/images/VSCodeSettings/MyPC_Attribute.png)
 ---
