@@ -72,7 +72,7 @@ bash: g++: command not found
 환경 변수가 제대로 등록 되었는지 Command prompt창을 킨 후 명령어 g++ --version 로 버전이 뜨는지를 확인했으면 MinGw 경로가 제대로 등록이 된 것입니다.
 ---
 
----
 <!-- ![내PC속성창](repo/images/VSCodeSettings/MyPC_Attribute.png) -->
 <img src="./repo/images/VSCodeSettings/MyPC_Attribute.png", height="100x", width="100px">
+
 ---
